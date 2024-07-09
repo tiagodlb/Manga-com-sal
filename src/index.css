@@ -3,6 +3,7 @@
 @import url('./styles/var.css');
 @import url('./styles/switch.css');
 @import url('./styles/title.css');
+@import url('./styles/card.css');
 
 * {
   margin: 0;

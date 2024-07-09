@@ -1,3 +1,4 @@
+import { LayoutCards } from './components/Card'
 import { Switch } from './components/Switch'
 import { Title } from './components/Title'
 
@@ -6,6 +7,7 @@ function App() {
     <div className="container-main">
       <Title />
       <Switch />
+      <LayoutCards />
     </div>
   )
 }
