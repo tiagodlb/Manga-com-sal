@@ -1,14 +1,14 @@
 import { LayoutCards } from './components/Card'
-import { Switch } from './components/Switch'
-import { Title } from './components/Title'
+import { Header } from './components/Header'
 
 function App() {
   return (
+    <>
+    <Header />
     <div className="container-main">
-      <Title />
-      <Switch />
       <LayoutCards />
     </div>
+    </>
   )
 }
 

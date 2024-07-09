@@ -6,6 +6,8 @@
   --accent-hover: #cea315;
   --border: #1f1e1e;
   --shadow: 7px 15px 13px -4px #00000056;
+  --space: oklch;
+  --grey: color-mix(in var(--space), rgb(68, 68, 68) 80%, white);
 }
 
 [data-theme='dark'] {
@@ -16,4 +18,7 @@
   --accent-hover: #5b4cbe;
   --border: #696969;
   --shadow: 7px 15px 13px -4px #ffffff1b;
+  --steps: 50;
+  --increment: calc(100% / var(--steps));
+  --grey: color-mix(in oklch, black var(--increment), rgb(206, 206, 206));
 }

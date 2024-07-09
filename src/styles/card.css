@@ -73,3 +73,12 @@
 .card .card-container-buttons button:active {
   background-color: var(--accent);
 }
+
+/* H2 TITLE */
+
+h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2rem;
+}
