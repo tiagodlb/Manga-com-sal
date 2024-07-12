@@ -10,8 +10,6 @@ type MyState = {
     theme: string,
 }
 
-
-
 class Switch extends Component<MyProps, MyState> {
     constructor(props: MyProps) {
         super(props);
